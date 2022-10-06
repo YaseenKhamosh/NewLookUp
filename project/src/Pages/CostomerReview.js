@@ -1,8 +1,8 @@
-import picture from "../Asset/photos/CostomerReview/brooke-cagle-NoRsyXmHGpI-unsplash.jpg";
-import picture1 from "../Asset/photos/CostomerReview/jeremy-mcknight-ix9I7kfMpcc-unsplash.jpg";
-import picture2 from "../Asset/photos/CostomerReview/nicolas-horn-MTZTGvDsHFY-unsplash.jpg";
-import  ArrowForward  from "@mui/icons-material/KeyboardArrowRight";
-import ArrowBack  from "@mui/icons-material/KeyboardArrowLeft";
+// import picture from "../Asset/photos/CostomerReview/brooke-cagle-NoRsyXmHGpI-unsplash.jpg";
+// import picture1 from "../Asset/photos/CostomerReview/jeremy-mcknight-ix9I7kfMpcc-unsplash.jpg";
+// import picture2 from "../Asset/photos/CostomerReview/nicolas-horn-MTZTGvDsHFY-unsplash.jpg";
+import  ArrowForward  from "@material-ui/icons/KeyboardArrowRight";
+import ArrowBack  from "@material-ui/icons/KeyboardArrowLeft";
 import './CostomerReview.css';
 const CostomerReview = () => {
     
@@ -17,7 +17,7 @@ const CostomerReview = () => {
                 <div ><ArrowBack fontSize="small" /></div>
               </div>
               <div className="section">
-                   <div><img src={picture}/></div>
+                   {/* <div><img src={picture}/></div> */}
                    <div className="paragraphe">
                       <h5>Name of the user</h5>
                       <div className="comma">,,</div>
@@ -30,7 +30,7 @@ const CostomerReview = () => {
                 <div ><ArrowBack fontSize="small"/></div>
               </div>
               <div className="section">
-                   <div><img src={picture1}/></div>
+                   {/* <div><img src={picture1}/></div> */}
                    <div className="paragraphe">
                      <h5>Name of the user</h5>
                      <div className="comma">,,</div>
@@ -43,7 +43,7 @@ const CostomerReview = () => {
                   <div ><ArrowBack fontSize="small" /></div>
                </div>
                <div className="section">
-                   <div><img src={picture2}/></div>
+                   {/* <div><img src={picture2}/></div> */}
                    <div className="paragraphe">
                       <h5>Name of the user</h5>
                       <div className="comma">,,</div>

@@ -1,8 +1,8 @@
 
-import EmailIcon from '@mui/icons-material/Email';
-import Person from '@mui/icons-material/Person'
-import Key from '@mui/icons-material/VpnKey';
-import Check from '@mui/icons-material/Check';
+import EmailIcon from '@material-ui/icons/Email';
+import Person from '@material-ui/icons/Person'
+import Key from '@material-ui/icons/VpnKey';
+import Check from '@material-ui/icons/Check';
 import './Login.css';
 import { useState } from "react";
 import {useHistory} from 'react-router-dom';
